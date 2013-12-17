@@ -7,8 +7,8 @@
     <ProjectGuid>{7D4CC267-5305-43DB-9CB2-24D72684BF35}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xpand.Demo.Para.Model</RootNamespace>
-    <AssemblyName>Xpand.Demo.Para.Model</AssemblyName>
+    <RootNamespace>Xpand.Demo.Para.DemoCenter.Model</RootNamespace>
+    <AssemblyName>Xpand.Demo.Para.DemoCenter.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

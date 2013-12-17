@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0EBF83
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Modules", "_Modules", "{FB01A983-8154-49A3-AEC6-9422E13CE1EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpand.Demo.Para.Model", "src\Common\Xpand.Demo.Para.Common\Xpand.Demo.Para.Model.csproj", "{7D4CC267-5305-43DB-9CB2-24D72684BF35}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpand.ExpressApp.Win.Para.WindowsIntegration", "src\Modules\WindowsIntegration\WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration.csproj", "{F253336B-CF62-4DCE-A8D6-B6EB020B05A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpand.Demo.Para.DemoCenter.Module", "src\DemoCenter\Xpand.Demo.Para.DemoCenter.Module\Xpand.Demo.Para.DemoCenter.Module.csproj", "{5440A2F9-B39A-4ADF-807A-E133E5E15659}"
@@ -19,16 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpand.Demo.Para.DemoCenter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpand.Demo.Para.DemoCenter.Win", "src\DemoCenter\Xpand.Demo.Para.DemoCenter.Win\Xpand.Demo.Para.DemoCenter.Win.csproj", "{60F870B5-A26B-4FE0-845B-66A87C6D02FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpand.Demo.Para.DemoCenter.Model", "src\Common\Xpand.Demo.Para.DemoCenter.Model\Xpand.Demo.Para.DemoCenter.Model.csproj", "{7D4CC267-5305-43DB-9CB2-24D72684BF35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F253336B-CF62-4DCE-A8D6-B6EB020B05A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F253336B-CF62-4DCE-A8D6-B6EB020B05A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F253336B-CF62-4DCE-A8D6-B6EB020B05A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{60F870B5-A26B-4FE0-845B-66A87C6D02FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60F870B5-A26B-4FE0-845B-66A87C6D02FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60F870B5-A26B-4FE0-845B-66A87C6D02FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4CC267-5305-43DB-9CB2-24D72684BF35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

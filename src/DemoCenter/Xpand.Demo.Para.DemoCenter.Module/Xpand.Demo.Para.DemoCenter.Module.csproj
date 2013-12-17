@@ -49,9 +49,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\Xpand.Demo.Para.Common\Xpand.Demo.Para.Model.csproj">
+    <ProjectReference Include="..\..\Common\Xpand.Demo.Para.DemoCenter.Model\Xpand.Demo.Para.DemoCenter.Model.csproj">
       <Project>{7D4CC267-5305-43DB-9CB2-24D72684BF35}</Project>
-      <Name>Xpand.Demo.Para.Model</Name>
+      <Name>Xpand.Demo.Para.DemoCenter.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
