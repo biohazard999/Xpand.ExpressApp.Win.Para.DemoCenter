@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Options>
+    <TaskbarJumplistOptions EnableJumpList="True">
+      <Jumplists>
+        <TasksCategory>
+          <TaskbarJumplistJumpItemLaunch Id="Calc" Caption="Calculator" Index="0" PathToLaunch="calc" ImageName="Action_Grand_Totals_Row" IsNewNode="True" />
+          <TaskbarJumplistSeperatorItem Id="@a4a88cc8-c7ed-4b47-8843-46c5563c6589" Index="1" IsNewNode="True" />
+          <TaskbarJumplistJumpItemNavigationItem Id="Calculation Proxy" NavigationItem="XPViewCalculationProxy_ListView" Index="2" IsNewNode="True" />
+          <TaskbarJumplistJumpItemNavigationItem Id="Large Business Object" NavigationItem="LargeBusinessObject_ListView" Index="3" IsNewNode="True" />
+        </TasksCategory>
+      </Jumplists>
+    </TaskbarJumplistOptions>
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="13.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="13.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

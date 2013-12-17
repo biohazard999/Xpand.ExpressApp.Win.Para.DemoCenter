@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D4CC267-5305-43DB-9CB2-24D72684BF35}</ProjectGuid>
+    <ProjectGuid>{9A46FE7A-32EE-4828-AA56-B10E0A2F5F6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xpand.Demo.Para.Common</RootNamespace>
-    <AssemblyName>Xpand.Demo.Para.Common</AssemblyName>
+    <RootNamespace>Xpand.Demo.Para.DemoCenter.Module.Win</RootNamespace>
+    <AssemblyName>Xpand.Demo.Para.DemoCenter.Module.Win</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Win.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,7 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemoCenterWindowsFormsModule.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\WindowsIntegration\WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration.csproj">
+      <Project>{F253336B-CF62-4DCE-A8D6-B6EB020B05A2}</Project>
+      <Name>Xpand.ExpressApp.Win.Para.WindowsIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xpand.Demo.Para.DemoCenter.Module\Xpand.Demo.Para.DemoCenter.Module.csproj">
+      <Project>{5440A2F9-B39A-4ADF-807A-E133E5E15659}</Project>
+      <Name>Xpand.Demo.Para.DemoCenter.Module</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

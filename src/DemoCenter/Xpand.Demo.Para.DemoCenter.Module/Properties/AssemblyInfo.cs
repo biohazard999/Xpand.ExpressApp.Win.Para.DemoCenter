@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Xpand.Demo.Para.DemoCenterWin")]
+[assembly: AssemblyTitle("Xpand.Demo.Para.DemoCenter.Module")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Xpand.Demo.Para.DemoCenterWin")]
+[assembly: AssemblyProduct("Xpand.Demo.Para.DemoCenter")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("81172009-0c73-4a94-abe6-dbaab04a5b4e")]
+[assembly: Guid("0d299863-9111-4519-96d5-686cf69e8adb")]
 
 // Version information for an assembly consists of the following four values:
 //

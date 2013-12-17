@@ -1,0 +1,3 @@
+[submodule "src/Modules/WindowsIntegration"]
+	path = src/Modules/WindowsIntegration
+	url = https://github.com/biohazard999/Xpand.ExpressApp.Win.Para.WindowsIntegration.git
