@@ -51,10 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Modules\WindowsIntegration\WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration.csproj">
-      <Project>{F253336B-CF62-4DCE-A8D6-B6EB020B05A2}</Project>
-      <Name>Xpand.ExpressApp.Win.Para.WindowsIntegration</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xpand.Demo.Para.DemoCenter.Module.Win\Xpand.Demo.Para.DemoCenter.Module.Win.csproj">
       <Project>{9A46FE7A-32EE-4828-AA56-B10E0A2F5F6C}</Project>
       <Name>Xpand.Demo.Para.DemoCenter.Module.Win</Name>
