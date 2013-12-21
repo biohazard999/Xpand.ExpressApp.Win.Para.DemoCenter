@@ -29,6 +29,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\..\Modules\Key\Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.ExpressApp.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.ExpressApp.Win.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -47,6 +53,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Modules\WindowsIntegration\src\WindowsIntegration\Xpand.ExpressApp.Win.Para.WindowsIntegration.csproj">
+      <Project>{f253336b-cf62-4dce-a8d6-b6eb020b05a2}</Project>
+      <Name>Xpand.ExpressApp.Win.Para.WindowsIntegration</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Xpand.Demo.Para.DemoCenter.Module\Xpand.Demo.Para.DemoCenter.Module.csproj">
       <Project>{5440A2F9-B39A-4ADF-807A-E133E5E15659}</Project>
       <Name>Xpand.Demo.Para.DemoCenter.Module</Name>
@@ -57,6 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Modules\Key\Key.snk">
+      <Link>Key.snk</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using System.Windows.Forms;
 using DevExpress.ExpressApp.SystemModule;
 using DevExpress.ExpressApp.Win;
@@ -81,9 +80,6 @@ namespace Xpand.Demo.Para.DemoCenter.Win
                     instance.PassArgumentsToFirstInstance();
                 }
             }
-
         }
-
-
     }
 }
